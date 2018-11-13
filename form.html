@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formular-Test</title>
+  </head>
+  <body>
+    <form method="get" action="form.html">
+      <p>
+        <label for="female">Frau</label>
+        <input type="radio" name="gender" id="female" value="female">
+      </p>
+      <p>
+        <label for="male">Mann</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+
+      </p>
+
+      <p>
+        <label for="firstname">Vorname</label>
+        <input type="text" name="firstname" value="" placeholder="Vorname">
+      </p>
+
+      <p>
+        <label for="lastname">Nachname</label>
+        <input type="text" name="lastname" value="" placeholder="Nachname">
+      </p>
+
+      <p>
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" value="" placeholder="yourmail@domain.com">
+      </p>
+      <p>
+        <label for="passwordId">Passwort</label>
+        <input type="passwort" name="passwort" id="passwordId" value="">
+      </p>
+
+      <p>
+          <label for="socks">Wie viele paar Socken kannst du gleichzeitig tragen (Einzelstück)</label>
+          <input type="number" name="socks" id="socks" value="" min="4" max="30" step="2">
+      </p>
+
+      <p>
+        <label for="animalfriend">Welcher Typ Mensch bist du?</label>
+      </p>
+      <p>
+        <select id="animalfriend" name="animalfriend" multiple>
+          <option value="kate123">Katzenmensch</option>
+          <option value="wauwau123">Hundemensch</option>
+          <option value="knapper123">Hamstermensch</option>
+          <option value="zwitscher123">Vogelmensch</option>
+        </select>
+      </p>
+
+      <p>
+        <textarea name="name" rows="8" cols="80">dasffsfgdf</textarea>
+      </p>
+
+      <p>
+        <label for="agb">agb, ja ok!</label>
+        <input type="chekbox" name="agb" id="agb" value="ok" required>
+      </p>
+      <p>
+        <input type="submit" name="submit" id="submit" value="Jetzt absenden!">
+        <button>absenden?</button>
+      </p>
+
+    </form>
+  </body>
+
+  </html>
